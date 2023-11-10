@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element in Html</title>
+</head>
+<body>
+    <h1>Form in Html</h1>
+    <form action="/action">
+
+        <!--Label for attribute is same as id Ex- if lable for="ooo" then id="ooo" -->
+        <!--place holder=it says the word in place holder in the input space -->
+        <div>
+        <label for="name">User Name:</label>
+        <input type="text"/ placeholder="Enter your Name" id="name" name="User">
+        </div>
+
+        <div>
+        <label for="password">Password:</label>
+        <input type="password"/ placeholder="Enter your Password" id="password" name="pass">
+        </div>
+
+        <div>
+        <label for="age">Age:</label>
+        <input type="number"/ placeholder="Enter your Age" id="age">
+        </div>
+
+        <div>
+        <label for="yourTime">Time:</label>
+        <input type="time"/ id="yourTime">
+        </div>
+        
+        <div>
+        <label for="ChooseColor">Color:</label>    
+        <input type="color"/ id="ChooseColor">
+        </div>
+        <!--one type of creating Button Element-->
+        <button type="button">Button</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <br />
+        <!--Another type of creating Button Element-->
+        <input type="button" value="click me"/>
+        <input type="submit" value="Submit The Form"/> 
+
+    </form>
+
+    <h2>Youtube Search Page Form</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_query/">
+        <button>search</button>
+    </form>
+</body>
+</html>
